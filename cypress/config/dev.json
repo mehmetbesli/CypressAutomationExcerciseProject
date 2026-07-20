@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://automationexercise.com",
+  "env": {
+    "environment": "Dev"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "cypressautomationexcerciseproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run:dev": "cypress run --env envName=dev",
+    "cy:run:qa": "cypress run --env envName=qa",
+    "cy:run:stage": "cypress run --env envName=stage",
+    "cy:open:dev": "cypress open --env envName=dev",
+    "cy:open:qa": "cypress open --env envName=qa",
+    "cy:open:stage": "cypress open --env envName=stage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.18.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
